@@ -1,0 +1,112 @@
+/*reglas
+selectores
+declaraciones
+propiedades
+valores
+*/
+
+
+
+header{
+    background: pink; 
+}
+body{
+    font-family:'source sans pro',sans-serif;
+    margin:0;
+    background: yellow;
+}
+h1,
+h2,
+h3,
+h4,
+h5
+{
+    font-family:"Fjalla One",sans-serif;
+    font-weight:normal;
+   /* font-style: oblique;*/
+
+}
+.hero{
+    width: 1300px;
+    background-image: url('..Imagenes/pinguino.jpg');
+    background-color: aqua;
+    background-size: 100px 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+h1{
+    font-size: 40px;
+    line-height: 1500px;
+    letter-spacing: 2px;
+    line-height: 150%
+    color:write;
+    margin:100px 150px  70px 30px;/*pxright botton left*/;
+}
+/*h1 strong{
+background-color: #1b2127
+    
+}*/
+  /* text-decoration: delive;
+  text-decoration:underline;
+  color:blue*/
+}
+hero{
+    width: 300px;
+    background-image: url('..Imagenes/pinguino.jpg');
+    background-color:red;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.portafolio{
+    background: #626262;
+}
+.project {
+/* border-top:10px solid red; /*tamaño tipo estilo;*/
+/* border-right: 10px solid green;
+ border-bottom: 10px rebeccapurple;
+ border-left: 10px yellow; */  
+ color:blue;
+ border-width: 15px;
+ border-style: solid;
+ border: 1px solid gray;
+ border-radius: 10px;
+ /*border-top-left-radius: 50px;*/
+ margin-bottom: 10px;
+ margin-bottom: 15px;
+ padding: 50px;
+ /*background: red;*/
+ width: 500px;
+ background: white;
+ height: 500px;
+
+
+}
+
+.project-detalls.div{
+    width: 500px;
+    height: 200px;
+}
+.project-imageContainer{
+    width: 500px;
+}
+.header{
+    background-color: #1b2127;
+    color: white;
+
+}
+header.a{
+    color:white;
+    text-decoration: none;
+}
+.flexbox{
+
+display:flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
